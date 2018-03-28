@@ -13,6 +13,10 @@ BugsLife\QueryNotice\Providers\QueryNoticeProvider::class,
 ```
 php artisan vendor:publish --tag=queryNotice
 ```
+## Migrations
+```
+php artisan migrate
+```
 ## Usage
 You can use it in the entire project, or use the middleware locally.Support log query or email to relevant developers.
 
